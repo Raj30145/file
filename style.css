@@ -1,0 +1,101 @@
+
+body{
+    
+    background-image: url(6745342.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+
+    width:800px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box{
+    height: 400px;
+    width:400px;
+    border: 1px solid black;
+    border-right: none;
+    background-color:rgba(255, 255, 255, 0.7);
+    border-radius: 22px;
+    box-shadow: 00px 00px 0044px 002px ;
+    border-bottom: none;
+    margin-top: 122px;
+    margin-left: 200px;
+    padding: 10px;
+    gap: 10px;
+   
+}
+
+.yes{
+    padding:5px  20px 5px 20px ;
+}
+.no{
+    margin-left: 260px;
+    padding:5px  20px 5px 20px ;
+    animation: raj 3000ms linear infinite;
+
+}
+
+button{
+    margin-top: 210px;
+    border: red 2px solid;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-left: 70px;
+    position: absolute;
+    
+
+}
+
+.uar{
+    animation: raj 30ms linear infinite;
+}
+
+@keyframes raj{
+    0%{}
+    40%{}
+    80%{transform: translatex(90px);}
+    100%{}
+}
+
+
+.light{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border: 2px solid #000000;
+    border-radius: 55%;
+    border-top: none;
+}
+
+.do{
+    position: absolute;
+    margin-top: 250px;
+    text-align: center;
+    margin-left: 82px;
+    color: rgb(26, 26, 24);
+}
+.mg{
+    height:200px;
+    margin-top: 22px;
+    margin-left: 82px;
+    box-shadow: inset  ;
+    position: absolute;
+    width: 200px;
+}
+
+.p{
+    font-size: 27px;
+    position: absolute;
+    margin-top: 310px;
+    padding: 5px;
+    color: blue;
+}
+button:hover{
+    background-color: blueviolet;
+    
+}
